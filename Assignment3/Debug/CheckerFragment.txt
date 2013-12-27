@@ -1,0 +1,58 @@
+#version 130   
+
+
+out vec4 colorOut;
+void main(void)
+{
+
+
+	if((mod(gl_TexCoord[0].s*10,1)<0.25))
+	{
+		if((mod(gl_TexCoord[0].t*10,1)<0.25)||
+			((mod(gl_TexCoord[0].t*10,1)<0.75)&&
+				(mod(gl_TexCoord[0].t*10,1)>0.5))||
+					(mod(gl_TexCoord[0].t*10,1)>1.0))
+		{
+			colorOut = vec4(1.0,0.0,0.0,1.0);
+		}
+		else
+			colorOut=vec4(1.0,1.0,1.0,1.0);		
+	}
+	else if((mod(gl_TexCoord[0].s*10,1)>0.25)&&(mod(gl_TexCoord[0].s*10,1)<0.5))
+	{
+		if((mod(gl_TexCoord[0].t*10,1)<0.25)||
+			((mod(gl_TexCoord[0].t*10,1)<0.75)&&
+				(mod(gl_TexCoord[0].t*10,1)>0.5))||
+					(mod(gl_TexCoord[0].t*10,1)>1.0))
+		{
+			colorOut=vec4(1.0,1.0,1.0,1.0);		
+		}
+		else
+			colorOut = vec4(1.0,0.0,0.0,1.0);	
+	}
+	else if((mod(gl_TexCoord[0].s*10,1)>0.5)&&(mod(gl_TexCoord[0].s*10,1)<0.75))
+	{
+		if((mod(gl_TexCoord[0].t*10,1)<0.25)||
+			((mod(gl_TexCoord[0].t*10,1)<0.75)&&
+				(mod(gl_TexCoord[0].t*10,1)>0.5))||
+					(mod(gl_TexCoord[0].t*10,1)>1.0))
+		{
+			colorOut = vec4(1.0,0.0,0.0,1.0);	
+		}
+		else
+			colorOut=vec4(1.0,1.0,1.0,1.0);		
+	}
+	else
+	{
+		if((mod(gl_TexCoord[0].t*10,1)<0.25)||
+			((mod(gl_TexCoord[0].t*10,1)<0.75)&&
+				(mod(gl_TexCoord[0].t*10,1)>0.5))||
+					(mod(gl_TexCoord[0].t*10,1)>1.0))
+		{
+			colorOut=vec4(1.0,1.0,1.0,1.0);
+		}
+		else
+			colorOut = vec4(1.0,0.0,0.0,1.0);	
+	}
+	
+}

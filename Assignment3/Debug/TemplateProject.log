@@ -1,0 +1,137 @@
+﻿Build started 12/27/2013 11:18:46 AM.
+     1>Project "C:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\Assignment3\TemplateProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\MeshDataStructure_VectorLibrary_FileReader\IlmBase\inc\Imath /IC:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\MeshDataStructure_VectorLibrary_FileReader\IlmBase\inc\IlmThread /IC:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\MeshDataStructure_VectorLibrary_FileReader\IlmBase\inc\Iex /IC:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\MeshDataStructure_VectorLibrary_FileReader\IlmBase\inc\Half /Ifreeglut/include /Iglew/include /Icwc/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D FREEGLUT_STATIC /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\perlin.cpp cwc\source\glApplication.cpp cwc\source\glsl.cpp cwc\source\glutwindow.cpp cwc\source\glWindow.cpp main.cpp
+         main.cpp
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(32): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(34): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(35): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(36): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(37): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(41): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(42): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(113): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(119): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(481): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(482): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(483): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(495): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(496): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(497): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(509): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\main.cpp(515): warning C4305: '-=' : truncation from 'double' to 'float'
+         glWindow.cpp
+         glutwindow.cpp
+         glsl.cpp
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\cwc\source\glsl.cpp(1351): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\cwc\source\glsl.cpp(1353): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned long', possible loss of data
+         glApplication.cpp
+         perlin.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\MeshDataStructure_VectorLibrary_FileReader\IlmBase\inc\Imath /IC:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\MeshDataStructure_VectorLibrary_FileReader\IlmBase\inc\IlmThread /IC:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\MeshDataStructure_VectorLibrary_FileReader\IlmBase\inc\Iex /IC:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\MeshDataStructure_VectorLibrary_FileReader\IlmBase\inc\Half /Ifreeglut/include /Iglew/include /Icwc/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D FREEGLUT_STATIC /D GLEW_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt glew\source\glew.c freeglut\source\freeglut_callbacks.c freeglut\source\freeglut_cursor.c freeglut\source\freeglut_display.c freeglut\source\freeglut_ext.c freeglut\source\freeglut_font.c freeglut\source\freeglut_font_data.c freeglut\source\freeglut_gamemode.c freeglut\source\freeglut_geometry.c freeglut\source\freeglut_glutfont_definitions.c freeglut\source\freeglut_init.c freeglut\source\freeglut_joystick.c freeglut\source\freeglut_main.c freeglut\source\freeglut_menu.c freeglut\source\freeglut_misc.c freeglut\source\freeglut_overlay.c freeglut\source\freeglut_state.c freeglut\source\freeglut_stroke_mono_roman.c freeglut\source\freeglut_stroke_roman.c freeglut\source\freeglut_structure.c freeglut\source\freeglut_teapot.c freeglut\source\freeglut_videoresize.c freeglut\source\freeglut_window.c stb_image.c
+         stb_image.c
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\stb_image.c(559): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\stb_image.c(626): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\stb_image.c(664): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\stb_image.c(4566): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         freeglut_window.c
+         fgSetupPixelFormat(): there is still some work to do here!
+         freeglut_videoresize.c
+         freeglut_teapot.c
+         freeglut_structure.c
+         freeglut_stroke_roman.c
+         freeglut_stroke_mono_roman.c
+         freeglut_state.c
+         freeglut_overlay.c
+         freeglut_misc.c
+         freeglut_menu.c
+         freeglut_main.c
+         freeglut_joystick.c
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_joystick.c(1002): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_joystick.c(1012): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_joystick.c(1020): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_joystick.c(1249): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+         freeglut_init.c
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_init.c(520): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : see declaration of 'getenv'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_init.c(524): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_init.c(533): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : see declaration of 'getenv'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_init.c(713): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_init.c(883): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+         freeglut_glutfont_definitions.c
+         freeglut_geometry.c
+         freeglut_gamemode.c
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_gamemode.c(394): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_gamemode.c(395): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_gamemode.c(396): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_gamemode.c(397): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_gamemode.c(398): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_gamemode.c(399): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>c:\users\owner\documents\gitopengl\cse470_proj3\assignment3\freeglut\source\freeglut_gamemode.c(400): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+         freeglut_font_data.c
+         freeglut_font.c
+         freeglut_ext.c
+         Generating Code...
+         Compiling...
+         freeglut_display.c
+         freeglut_cursor.c
+         freeglut_callbacks.c
+         glew.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\TemplateProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\TemplateProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\TemplateProject.lib" /MACHINE:X86 /SAFESEH Debug\perlin.obj
+         Debug\glew.obj
+         Debug\freeglut_callbacks.obj
+         Debug\freeglut_cursor.obj
+         Debug\freeglut_display.obj
+         Debug\freeglut_ext.obj
+         Debug\freeglut_font.obj
+         Debug\freeglut_font_data.obj
+         Debug\freeglut_gamemode.obj
+         Debug\freeglut_geometry.obj
+         Debug\freeglut_glutfont_definitions.obj
+         Debug\freeglut_init.obj
+         Debug\freeglut_joystick.obj
+         Debug\freeglut_main.obj
+         Debug\freeglut_menu.obj
+         Debug\freeglut_misc.obj
+         Debug\freeglut_overlay.obj
+         Debug\freeglut_state.obj
+         Debug\freeglut_stroke_mono_roman.obj
+         Debug\freeglut_stroke_roman.obj
+         Debug\freeglut_structure.obj
+         Debug\freeglut_teapot.obj
+         Debug\freeglut_videoresize.obj
+         Debug\freeglut_window.obj
+         Debug\glApplication.obj
+         Debug\glsl.obj
+         Debug\glutwindow.obj
+         Debug\glWindow.obj
+         Debug\main.obj
+         Debug\stb_image.obj
+     1>perlin.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         TemplateProject.vcxproj -> C:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\Assignment3\Debug\TemplateProject.exe
+     1>Done Building Project "C:\Users\Owner\Documents\gitOpenGL\CSE470_Proj3\Assignment3\TemplateProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.23

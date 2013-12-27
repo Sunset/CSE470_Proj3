@@ -1,0 +1,38 @@
+Allen Hsia
+a)
+press 1 2 3 to switch to different scenes
+press a and s to move up and down
+press up and down to move forward and backwards
+press right and left to rotate right and left
+press p to toggle on and off the checkered board feature (This only works in scene 1)
+press o to toggle on and off the stripped feature (this only works in scene 1 and 2)
+b)
+press p to toggle on and off the checkered board feature (This only works in scene 1)
+press o to toggle on and off the stripped feature (this only works in scene 1 and 2)
+
+c) there were no changes from the original specifications
+d) What I considered important.
+Note that in scene two the torus is BEHIND the dog. It blends. The torus can be seen through the dog.
+Not the other way around. simply move the camera and you can see the position that the torus is behind the dog. It may not look like it but it is.
+When switching from scene 1 and scene 2, after the first initial switch back to scene 1, the color will change
+that's because of the state machine. the color will change but that does not affect the overal goal of the
+poject. There is still a phong shading from the fragment and vertex shader. There is still a picture of the 
+doge (AS PROMISED FROM THE EMAIL I GOT FROM DR. ROSS) on both sides. The is still the feature to toggle on and off
+the stripped leggs.Within the draw_leg(), i have the toggle there for isStripped or not. 
+Also pay attention to the function for draw the parts for the dog. I have binded a texture and enabled the texture in the torso when i drew the body. I have a shader for the original fragment shader between the
+remaining parts of the body.
+
+Here are the names of the txt files I named for shaders. for the regular shader it was vertexshader.txt and fragementshader.txt. For the strips it is vertexshader.txt and StripeFragment.txt.
+For the checkered it is the vertexshader.txt and the checkerFragment.txt. for bump it is vertexshader.txt and fragmentShaderBump.txt
+
+It is also important to note that in the beginning there may be some of the ground missnig. This isn't an error. Either move with the controls and the ground will reappear.
+
+ALso if you come across an error that the imathvec for the mesh.h can not be read, go to project properties -> C/C++ -> and additional include directories. The attached zip file
+should contain the additional files so simply re connect it to the IlmBase\inc\Imath, IlmThread, iex and Half and it should go away.
+
+e) there are code given to us from the original project files. There are code that I did not write and they include but not limited to
+the demolight and demo texture. There are code from thsi link
+http://www.opengl.org/sdk/docs/tutorials/ClockworkCoders/lighting.php
+that I used for the fragmentshader.txt. The vertexshader.txt was also given to us. I also have the fragmentshader and vertextshader for the bump mapping from the redbook example
+
+This zip file contains both release and debug exe files
